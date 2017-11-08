@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+grpc_tools_ruby_protoc -I lib/proto --ruby_out=lib --grpc_out=lib lib/proto/sip_server.proto

@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH << File.expand_path(File.dirname(__FILE__) + '/../lib')
+require 'grpc_client'
+
+def banner
+  puts "grpc_client v#{GrpcClient::VERSION}."
+end
+
+banner
